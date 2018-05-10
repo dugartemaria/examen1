@@ -1,0 +1,235 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,900,700,600,500,300,200,100,800);
+
+@font-face {
+    font-family:"Roboto";
+
+    src:url("Roboto-Light.woff2") format("woff2"),
+    	url("Roboto-Light.woff") format("woff"),
+    	url("Roboto-Light.otf") format("opentype");
+
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family:"Playfair Display";
+
+    src:url("../fonts/PlayfairDisplay-BlackItalic.woff2") format("woff2"),
+    	url("../fonts/PlayfairDisplay-BlackItalic.woff") format("woff"),
+    	url("../fonts/PlayfairDisplay-BlackItalic.otf") format("opentype");
+    
+    font-style: italic;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family:"Playfair Display";
+
+    src:url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+    	url("../fonts/PlayfairDisplay-Regular.woff") format("woff"),
+    	url("../fonts/PlayfairDisplay-Regular.otf") format("opentype");
+
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+h3 {
+  display: inline-block;
+  padding: 10px;
+  background: #B9121B;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+
+section{
+    padding:60px 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    color: #4C4C4C;
+    word-spacing: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom:30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    color: #4C4C4C;
+    word-spacing: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom:30px;
+    font-family: 'Raleway', sans-serif;
+}
+.ion-minus{
+    padding:0px 10px;
+}
+
+#blog{
+	background-color:#f6f6f6;
+    font-family: 'Raleway', sans-serif;
+}
+
+#blog .blog.column a{
+	color:#5db4c0;
+	text-decoration:none;
+    font-family: 'Raleway', sans-serif;
+}
+
+#blog img:hover {
+	opacity:0.8; 
+}
+
+
+
+
+
+
+
+
+
+
+.encabezado {
+    background: url("../img/post-image.jpg") no-repeat center / cover transparent;
+    text-align: center;
+    padding: 180px 0;
+}
+
+.encabezado__h2-white {
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family:"Playfair Display";
+    font-size: 6rem;
+}
+
+.logo {
+    max-width: 40%;
+    height: auto;
+}
+
+.h2white {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.whitetext {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.top {
+    margin-bottom: 0px;
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.iconosup {
+   padding-bottom: 10px;
+    padding-top: 10px; 
+    font-size: 26px;
+}
+
+.bloques {
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 60px; 
+    font-family: 'Raleway', sans-serif;
+}
+
+.fondomenu {
+    background: #f9dc3c;
+    
+}
+
+.navbar-default {
+    background: #f9dc3c;
+}
+
+/*FOOTER START///////////////////*/
+.footer {
+    padding: 50px 0 20px 0;
+    background-color: #090c14;
+    color: #878c94;
+    font-family: 'Raleway', sans-serif;
+}
+.footer .title{
+	text-align: left;
+	color:#fff;
+	font-size:25px;
+    font-family: 'Raleway', sans-serif;
+}
+.footer .social-icon{
+	padding:0px;
+	margin:0px;
+    font-family: 'Raleway', sans-serif;
+}
+.footer .social-icon a{
+	display:inline-block;
+	color:#fff;
+	font-size:25px;
+	padding:5px;
+    font-family: 'Raleway', sans-serif;
+}
+.footer .acount-icon a{
+	display:block;
+	color:#fff;
+	font-size:18px;
+	padding:5px;
+	text-decoration:none;
+    font-family: 'Raleway', sans-serif;
+}
+.footer .acount-icon .fa{
+	margin-right:25px;
+}
+.footer .category a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius:4px;
+    margin-top: 6px;
+    background-color: black;
+    border: solid 1px #fff;
+    font-family: 'Raleway', sans-serif;
+}
+.footer .payment{
+	margin:0px;
+	padding:0px;
+	list-style-type:none
+    font-family: 'Raleway', sans-serif;
+}
+.footer .payment li{
+	list-style-type:none
+}
+.footer .payment li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    float: left;
+    font-size: 25px;
+    padding: 10px 10px;
+    font-family: 'Raleway', sans-serif;
+}
